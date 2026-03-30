@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rodar C",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "gcc \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\""
+      ]
+    }
+  ]
+}
